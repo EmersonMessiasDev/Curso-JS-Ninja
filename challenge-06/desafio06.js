@@ -5,8 +5,6 @@ Declare uma variável chamada `championship` que receberá o nome do campeonato,
 e imprima o nome desse campeonato no console.
 */
 // ?
-let championship = 'Copa do mundo'
-console.log(championship)
 
 /*
 Declare uma variável chamada `teams`, que receberá um array com 5 elementos.
@@ -15,7 +13,7 @@ estar na ordem em que eles aparecem na tabela no momento da solução desse
 desafio.
 */
 // ?
-let teams = ['Brasil', 'Argentina', 'França', 'Croacia', 'Chile']
+
 console.log( 'Times que estão participando do campeonato:', teams );
 
 /*
@@ -35,37 +33,18 @@ Crie uma função chamada `showTeamPosition` com as seguintes características:
     "Não temos a informação do time que está nessa posição."
 */
 // ?
-function showTeamPosition(param){
-    colocacao = param +1
-    if( param > teams.length){
-        return 'Não temos a informação do time que esta nessa posição'
-    }else{
-        return `O time que esta em ${colocacao}° lugar é ${teams[param]} `
-    }
-   
-}
 
 /*
 Escolha 4 times do campeonato selecionado e mostre a posição dele, usando a
 função acima. Entre esses 4, adicione 1 que não esteja entre os 5 primeiros.
 */
 // ?
-console.log(showTeamPosition(0))
-console.log(showTeamPosition(1))
-console.log(showTeamPosition(2))
-console.log(showTeamPosition(3))
-console.log(showTeamPosition(4))
 
 /*
 Mostre os números de 20 a 30 no console (inclusive o 30), usando a estrutura de
 repetição "while".
 */
 // ?
-counter = 20
-while(counter < 30+1){
-    console.log(counter)
-    counter++
-}
 
 /*
 Crie uma função chamada `convertToHex`, com as seguintes características:
