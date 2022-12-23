@@ -81,6 +81,23 @@ Crie uma função chamada `convertToHex`, com as seguintes características:
 */
 // ?
 
+function convertToHex(cor){
+    switch(cor) {
+        case 'red':
+            return `O hexadecimal para a cor ${cor} é #AA0123`
+        case 'Blue':
+            return `O hexadecimal para a cor ${cor} é #AA0123`
+        case 'Yellow':
+            return `O hexadecimal para a cor ${cor} é #AA0123`
+        case 'whrite':
+            return `O hexadecimal para a cor ${cor} é #AA0123`
+        default:
+            return `Não temos o equivaente hexadecimal para  ${cor}`
+    }
+}
+
+console.log(convertToHex('Blue'))
+
 /*
 Tente mostrar o hexadecimal de 8 cores diferentes usando a função criada acima.
 */
