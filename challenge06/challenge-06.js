@@ -102,3 +102,12 @@ console.log(convertToHex('Blue'))
 Tente mostrar o hexadecimal de 8 cores diferentes usando a função criada acima.
 */
 // ?
+let lista = ['whrite', 'Yellow', 'Blue','red', 'branco', 'verde']
+
+for(l in lista){
+    console.log(convertToHex(lista[l]))
+}
+
+// for( var num = 0; num < 20; num++){
+
+// }
